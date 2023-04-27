@@ -337,9 +337,14 @@
 		height: 250px;
 	}
 	.page-title h1 {
-    	font-size: 40px;
+		font-size: 40px;
 	}
 	.img-about_us img {
-    	max-width: 200px;
+		max-width: 200px;
+	}
+	.journals_ligh_india .journals_wrapper img {
+		height: 100%;
+		object-fit: cover;
+		max-height: 150px;
 	}
 }
