@@ -234,7 +234,7 @@ body {
     padding: 15px 10px;
 }
 .navigation-wrapper {
-    border-bottom: 1px solid #c8bcbc;
+    border-bottom: 1px solid #c8bcbc70;
 }
 .latest_news_items {
     display: flex;
@@ -580,7 +580,7 @@ body {
 }
 /*start footer*/
 footer{
-   background :var(--graygradient);
+ background :var(--graygradient);
 }
 .footer_link {
     list-style: none;
@@ -628,6 +628,7 @@ footer{
 /*about us css start*/
 .bannerwrapper_page {
     color: #fff;
+    background: transparent linear-gradient(99deg, #E5883C 0%, #FFFFFF65 51%, #4AA35B 100%) 0% 0% no-repeat padding-box;
     padding: 70px 10px;
     display: flex;
     align-items: center;
@@ -636,6 +637,8 @@ footer{
 }
 .page-title h1 {
     font-size: 60px;
+    font-weight: bold;
+    color: #2E308B;
 }
 .about_wrapper {
     padding: 40px 0;
@@ -670,4 +673,66 @@ footer{
 }
 .pages_sticy_bar ul a.active {
     font-weight: 700;
+}
+.team_wrapper {
+    padding: 50px 0;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+.team_member h4 {
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.team_member p {
+    margin: 0;
+    font-size: 20px;
+}
+.img-about_us i {
+    border: 1px solid;
+}
+.sub-title h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.contact_wrapper{
+    padding: 60px 0;
+}
+.search_btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #2E3086;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.search_form input {
+    width: 100%;
+    height: 46px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #BEBEBE;
+    max-width: 270px;
+    position: relative;
+}
+
+.search_form {
+    position: relative;
+}
+.search_blog {
+    margin-bottom: 30px;
+}
+.latest_journals .paragarph {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
 }

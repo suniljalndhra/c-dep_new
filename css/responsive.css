@@ -347,4 +347,11 @@
 		object-fit: cover;
 		max-height: 150px;
 	}
+	.team_member h4 {
+		font-size: 20px;
+		margin-bottom: 6px;
+	}
+	.team_member p {
+		font-size: 18px;
+	}
 }
