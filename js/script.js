@@ -131,3 +131,26 @@ jQuery(".burget_menu").click(function(){
 jQuery(".crss_buttons").click(function(){
     jQuery(".wrapper_navigation").removeClass('add_menu');
 })
+jQuery(".close-button_image").click(function(){
+    jQuery(".modal-image.open").removeClass('open');
+})
+
+
+// Get Elements
+const previewImg = document.querySelectorAll('.image_wrap_gallery img');
+const modalImg = document.querySelector('.modal-img img');
+const modal = document.querySelector('.modal-image');
+
+previewImg.forEach((images) => {
+  images.addEventListener('click', () => {
+    modal.classList.add('open');
+    let imgSrc = images.src;
+    modalImg.src = imgSrc;
+  });
+});
+
+modal.addEventListener('click', e => {
+  if (e.target.classList.contains('modal')) {
+    modal.classList.remove('open');
+  }
+});

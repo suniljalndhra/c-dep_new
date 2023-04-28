@@ -14,7 +14,6 @@
 		font-size: 40px;
 		margin-bottom: 15px;
 	}
-
 	.sub_heading {
 		font-size: 20px;
 	}
@@ -353,5 +352,17 @@
 	}
 	.team_member p {
 		font-size: 18px;
+	}
+	.gallery_image_wrap {
+		grid-template-columns: 100px 1fr;
+		gap: 20px;
+	}
+	.image_wrap_journals img {
+		height: 120px;
+		border-radius: 10px;
+	}
+	.gallery_image_wrap .events_tabs button {
+		font-size: 15px;
+		margin-bottom: 10px;
 	}
 }
